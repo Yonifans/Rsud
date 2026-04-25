@@ -4,22 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sayangi Landing</title>
+
     <style>
-      /* This makes the frame fill the screen nicely */
       iframe {
         width: 100%;
-        height: 500px;
+        height: 80vh;
         border: none;
       }
     </style>
   </head>
-  <body>
-    <div id="root"></div>
 
-    <section>
-      <h2>RSUD Information</h2>
-      <iframe src="https://yonifans.github.io/Rsud/" title="RSUD Site"></iframe>
-    </section>
+  <body>
+    <div id="root">
+      <section>
+        <h2>RSUD Information</h2>
+        <iframe 
+          src="https://yonifans.github.io/Rsud/" 
+          title="RSUD Site">
+        </iframe>
+      </section>
+    </div>
 
     <script type="module" src="/src/main.tsx"></script>
   </body>
