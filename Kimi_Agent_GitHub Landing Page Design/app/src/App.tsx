@@ -1,10 +1,23 @@
-import { Routes, Route } from 'react-router'
-import Home from './pages/Home'
-
-export default function App() {
+function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
+    <div>
+      <h1>Sayangi Landing</h1>
+
+      <section>
+        <h2>RSUD Information</h2>
+
+        <iframe
+          src="https://yonifans.github.io/Rsud/"
+          title="RSUD Site"
+          style={{
+            width: "100%",
+            height: "80vh",
+            border: "none"
+          }}
+        />
+      </section>
+    </div>
   )
 }
+
+export default App
